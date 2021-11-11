@@ -23,7 +23,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/function-component-definition': ['error', { 'namedComponents': 'function-declaration', 'unnamedComponents': 'arrow-function' }],
     'react/jsx-curly-newline': 0,
-    'react/jsx-filename-extension': 0,
+    'react/jsx-filename-extension': [1, { 'extensions': ['.tsx', '.jsx'] }],
     'react/jsx-one-expression-per-line': 0,
     'react/jsx-props-no-spreading': 'warn',
     'react/no-unescaped-entities': 0, // N/A to React Native
