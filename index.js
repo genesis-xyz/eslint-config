@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 module.exports = {
   extends: [
@@ -15,12 +15,14 @@ module.exports = {
     },
   },
   rules: {
+    '@typescript-eslint/no-shadow': ['error'],
     '@typescript-eslint/no-use-before-define': 0,
     '@typescript-eslint/no-var-requires': 0,
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 'warn',
     'jsx-a11y/anchor-is-valid': 0,
     'max-len': 0, // Handled by prettier
+    'no-shadow': 'off', // This rule incorrectly reports ts enums as shadowed, use the version from @typescript-eslint instead
     'no-use-before-define': 0,
     'react-hooks/exhaustive-deps': 'error',
     'react-hooks/rules-of-hooks': 'error',
