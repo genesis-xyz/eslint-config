@@ -1,5 +1,5 @@
 {
-  "name": "@danscan/eslint-config",
+  "name": "@genesis-xyz/eslint-config",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
