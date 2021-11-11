@@ -1,5 +1,5 @@
-# @danscan/eslint-config
-My preferred eslint + prettier setup.
+# @genesis-xyz/eslint-config
+Genesis's eslint + prettier setup.
 
 * * *
 
@@ -7,7 +7,7 @@ My preferred eslint + prettier setup.
 
 ## Installation
 ```
-yarn add @danscan/eslint-config @typescript-eslint/parser eslint prettier typescript --dev
+yarn add @genesis-xyz/eslint-config @typescript-eslint/parser eslint prettier typescript --dev
 touch .eslintrc.js
 ```
 
@@ -15,7 +15,7 @@ touch .eslintrc.js
 ```javascript
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: ['@danscan'],
+  extends: ['@genesis-xyz'],
 }
 ```
 * * *
@@ -24,13 +24,13 @@ module.exports = {
 
 ## Installation
 ```
-yarn add @dancan/eslint-config eslint prettier --dev
+yarn add @genesis-xyz/eslint-config eslint prettier --dev
 touch .eslintrc.js
 ```
 
 ### `.eslintrc.js`
 ```javascript
 module.exports = {
-  extends: ['@danscan/js'],
+  extends: ['@genesis-xyz/js'],
 }
 ```
