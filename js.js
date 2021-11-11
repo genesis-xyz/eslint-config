@@ -21,6 +21,7 @@ module.exports = {
     'no-use-before-define': 0,
     'react-hooks/exhaustive-deps': 'error',
     'react-hooks/rules-of-hooks': 'error',
+    'react/function-component-definition': ['error', { 'namedComponents': 'function-declaration', 'unnamedComponents': 'arrow-function' }],
     'react/jsx-curly-newline': 0,
     'react/jsx-filename-extension': 0,
     'react/jsx-one-expression-per-line': 0,
