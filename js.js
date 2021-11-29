@@ -17,6 +17,7 @@ module.exports = {
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 'warn',
     'jsx-a11y/anchor-is-valid': 0,
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'max-len': 0, // Handled by prettier
     'no-use-before-define': 0,
     'react-hooks/exhaustive-deps': 'error',
