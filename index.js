@@ -9,7 +9,6 @@ module.exports = {
   plugins: ['react-hooks'],
   settings: {
     'import/resolver': {
-      typescript: {},
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
