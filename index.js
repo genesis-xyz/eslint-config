@@ -6,7 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
-  plugins: ['react-hooks'],
+  plugins: ['react-hooks', 'import'],
   settings: {
     'import/resolver': {
       node: {
