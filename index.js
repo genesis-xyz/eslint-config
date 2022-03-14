@@ -8,6 +8,9 @@ module.exports = {
   ],
   plugins: ['react-hooks', 'import'],
   settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': [".ts", ".tsx"],
+    },
     'import/resolver': {
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
