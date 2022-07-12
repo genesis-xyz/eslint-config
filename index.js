@@ -48,6 +48,7 @@ module.exports = {
       'error',
       {
         endOfLine: 'auto',
+        pluginSearchDirs: false,
         printWidth: 80,
         semi: true,
         singleQuote: true,
