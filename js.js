@@ -3,8 +3,7 @@
 module.exports = {
   extends: [
     'airbnb',
-    'prettier',
-    'prettier/prettier',
+    'plugin:prettier/recommended',
   ],
   plugins: ['react-hooks'],
   settings: {

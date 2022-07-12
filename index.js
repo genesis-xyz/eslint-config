@@ -3,9 +3,8 @@
 module.exports = {
   extends: [
     'airbnb',
-    'prettier',
-    'prettier/prettier',
     'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
   ],
   plugins: ['react-hooks', 'import'],
   settings: {
