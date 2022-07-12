@@ -3,8 +3,9 @@
 module.exports = {
   extends: [
     'airbnb',
+    'prettier',
+    'prettier/prettier',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
   ],
   plugins: ['react-hooks', 'import'],
   settings: {
@@ -41,7 +42,7 @@ module.exports = {
     'react/no-unescaped-entities': 0, // N/A to React Native
     'react/prop-types': [1, { skipUndeclared: true }],
     'react/require-default-props': 0, // This rule causes false-positive errors for TS function components
-    'spaced-comment': ['error', 'always', { exceptions: ['-', '*', '='] }],
+    'spaced-comment': ['error', 'always', { exceptions: ['-', '*', '=', '/'] }],
 
     // Prettier
     'prettier/prettier': [

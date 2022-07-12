@@ -3,7 +3,8 @@
 module.exports = {
   extends: [
     'airbnb',
-    'plugin:prettier/recommended',
+    'prettier',
+    'prettier/prettier',
   ],
   plugins: ['react-hooks'],
   settings: {
@@ -29,7 +30,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'warn',
     'react/no-unescaped-entities': 0, // N/A to React Native
     'react/prop-types': [1, { skipUndeclared: true }],
-    'spaced-comment': ['error', 'always', { exceptions: ['-', '*', '='] }],
+    'spaced-comment': ['error', 'always', { exceptions: ['-', '*', '=', '/'] }],
 
     // Prettier
     'prettier/prettier': [
