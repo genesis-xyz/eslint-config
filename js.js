@@ -16,8 +16,10 @@ module.exports = {
   rules: {
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 'warn',
+    'import/prefer-default-export': 0, // Allow single named exports to exported from files for better barrel re-exporting
     'jsx-a11y/anchor-is-valid': 0,
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
+    'max-classes-per-file': 0, // Classes are used so sparingly that cases where this rule will error are intentional
     'max-len': 0, // Handled by prettier
     'no-use-before-define': 0,
     'react-hooks/exhaustive-deps': 'error',
