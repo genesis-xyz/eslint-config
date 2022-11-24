@@ -14,6 +14,7 @@ module.exports = {
     },
   },
   rules: {
+    'class-methods-use-this': 0, // Classes are used so sparingly that cases where this rule will error are intentional
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 'warn',
     'import/prefer-default-export': 0, // Allow single named exports to exported from files for better barrel re-exporting
@@ -29,6 +30,8 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
     'react/jsx-one-expression-per-line': 0,
     'react/jsx-props-no-spreading': 'warn',
+    'react/jsx-props-no-spreading': 0, // Allow JSX props spreading
+    'react/jsx-sort-props': 1, // Sort props alphabetically
     'react/no-unescaped-entities': 0, // N/A to React Native
     'react/prop-types': [1, { skipUndeclared: true }],
     'spaced-comment': ['error', 'always', { exceptions: ['-', '*', '=', '/'] }],
